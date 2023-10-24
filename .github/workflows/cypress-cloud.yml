@@ -66,7 +66,7 @@ jobs:
         install-command: yarn install
         browser: firefox
         record: true
-        group: UI firefox
+        group: UI Firefox
         spec: ${{ github.event.inputs.spec }}
        env:
         CYPRESS_RECORD_KEY: fde867a5-619b-4050-a926-f0e066daef53
